@@ -1,0 +1,106 @@
+
+<!-- 
+<!DOCTYPE HTML>
+<HTML>
+<head>
+<meta CHARSET="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="reg.jsp" method="post">
+
+User name :<input type="text" name="userid" /><br/><br/>
+password :<input type="password" name="pwd" /><br/><br/>
+First name :<input type="text" name="fname" /><br/><br/>
+Last name :<input type="text" name="lname" /><br/><br/>
+Email :<input type="text" name="email" /><br/><br/>
+<br/><br/>
+
+<input type="submit" />
+
+
+</body>
+</HTML>
+ -->
+ 
+ <html>
+<style>
+*{
+margin:0;
+padding:0;}
+h2{color:whitesmoke;font:700 20pt arial;padding:16px;}
+h4 {color:brwon;font:700 11pt verdana}
+td {font:10pt arial}
+a {font:13pt arial;color:whitesmoke;}
+body{
+background: url("https://images.unsplash.com/photo-1604742496374-8aba83957a9b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+background-repeat:no-repeat;
+background-size:cover;
+color:whitesmoke;
+padding:16px;}
+table{
+border-spacing: 16px;}
+div{
+margin:16px;}
+</style>
+
+<body>
+
+<h2>New User Registration </h2>
+<hr>
+<form action="reg.jsp" method="post">
+<table>
+<tr>
+<td>
+User Name
+<td>
+<input type=text name=uname size=20>*
+</tr>
+<tr>
+<td>
+Password
+<td>
+<input type=password name=pwd size=20>*
+</tr>
+<tr>
+<td>
+Confirm Password
+<td>
+<input type=password name=pwd2 size=20>*
+</tr>
+
+<tr>
+<td>
+Email Address
+<td>
+<input type=text name=email size=30>*
+</tr>
+
+<tr>
+<td>Mailing Address
+<td>
+<textarea name="address" rows=3 cols=30></textarea>*
+</td>
+</tr>
+
+
+<tr>
+<td>
+Phone Number
+<td>
+<input type=text  name=phone  size=30>
+</tr>
+	
+</table>
+<p>
+<div><input type=submit value="Register">
+<input type=reset value="Clear All"></div>
+
+<p>
+<div><a href="Login.html">Go Back</a></div>
+
+</form>
+
+</body>
+</html>   
